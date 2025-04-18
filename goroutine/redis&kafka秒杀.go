@@ -7,6 +7,7 @@ import (
 	"github.com/redis/go-redis/v9"
 	"log"
 	"net/http"
+	_ "net/http/pprof"
 	"strings"
 	"sync"
 	"time"
